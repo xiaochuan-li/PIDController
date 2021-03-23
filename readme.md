@@ -6,7 +6,16 @@ ___
 1. Installation  
 `pip install pidcontroller`
 ___
-2. Usage  
+2. Topo Structure  
+~~~mermaid
+graph LR;
+  A-->B[bname]
+  B-->C
+  C-->D
+  D-->A
+~~~
+___
+1. Usage  
 ```
 from pidcontroller import Variable, PIDController
 import time
