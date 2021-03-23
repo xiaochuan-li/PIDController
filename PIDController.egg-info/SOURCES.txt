@@ -5,6 +5,6 @@ PIDController.egg-info/dependency_links.txt
 PIDController.egg-info/entry_points.txt
 PIDController.egg-info/requires.txt
 PIDController.egg-info/top_level.txt
-controller/PIDController.py
-controller/__init__.py
-controller/cursor.py
+pidcontroller/PIDController.py
+pidcontroller/__init__.py
+pidcontroller/cursor.py

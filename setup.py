@@ -7,6 +7,7 @@ setup(
     name='PIDController',
     version=__version__,
     author='xiaochuan',
+    url='https://github.com/xiaochuan-li/PIDController',
     author_email='lixiaochuan822@gmail.com',
     description=u'PIDController',
     packages=['pidcontroller'],
