@@ -11,7 +11,7 @@ ___
 <img src="./example/proc.png"/>  
 
 3. Usage  
-<a href="./example.py">example.py</a>  
+<a href="./pidcontroller/example.py">example.py</a>  
 
 ```
 from pidcontroller import Variable, PIDController
