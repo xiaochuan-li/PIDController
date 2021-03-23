@@ -9,10 +9,12 @@ ___
 2. Topo Structure  
 ~~~mermaid
 graph LR;
-  A-->B[bname]
-  B-->C
-  C-->D
-  D-->A
+  input(input command) --> error((error))
+  error((error)) --> controller[PID Controller]
+  controller[PID Controller] --> output(output signal)
+  output(output signal) --> sys[Physic System]
+  sys[Physic System] --> observe(observable signal)
+  observe(observable signal) --> error((error))
 ~~~
 ___
 1. Usage  
@@ -66,5 +68,5 @@ if __name__ == "__main__":
     controller.visualize()
 ```
 ____
-3. Visualisation  
+4. Visualisation  
 <img src="./example/data.png"></img>
