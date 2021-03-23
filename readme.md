@@ -9,7 +9,8 @@ ___
 2. Topo Structure  
 <img src="./example/proc.png"/>
 ___
-1. Usage [example.py](./example.py)
+1. Usage  
+<a href="./example.py">example.py</a>  
 
 ```
 from pidcontroller import Variable, PIDController
