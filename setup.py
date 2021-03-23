@@ -15,6 +15,7 @@ setup(
     entry_points={
         'console_scripts': [
             'sayit=pidcontroller:sayit',
+            'pidtest=pidcontroller:test',
         ]
     }
 )

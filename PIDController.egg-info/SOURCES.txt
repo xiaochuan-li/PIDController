@@ -8,3 +8,4 @@ PIDController.egg-info/top_level.txt
 pidcontroller/PIDController.py
 pidcontroller/__init__.py
 pidcontroller/cursor.py
+pidcontroller/example.py

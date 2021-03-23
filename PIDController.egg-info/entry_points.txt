@@ -1,3 +1,4 @@
 [console_scripts]
+pidtest = pidcontroller:test
 sayit = pidcontroller:sayit
 

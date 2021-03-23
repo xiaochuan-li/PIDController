@@ -1,6 +1,7 @@
-from pidcontroller import Variable, PIDController
+from .PIDController import Variable, PIDController
 import time
-if __name__ == "__main__":
+
+def test():
     V_input = Variable(name="input")
     V_output = Variable(name="output")
     V_observable = Variable(name="observable")
@@ -18,3 +19,6 @@ if __name__ == "__main__":
         time.sleep(0.01)
         sysEstim(V_output.value)
     controller.visualize()
+
+if __name__ == "__main__":
+    test()

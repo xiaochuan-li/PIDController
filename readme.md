@@ -4,7 +4,8 @@
 
 ___
 1. Installation  
-`pip install pidcontroller`
+run `pip install pidcontroller==0.06` to install the package.  
+run `sayit` to verify the version and run `pidtest` to show a simple demo.
 ___
 2. Topo Structure  
 <img src="./example/proc.png"/>  
