@@ -9,7 +9,7 @@ run `sayit` to verify the version and run `pidtest` to show a simple demo.
 ___
 2. Topo Structure  
 <img src="./example/proc.png"/>  
-___
+
 3. Usage  
 <a href="./example.py">example.py</a>  
 
