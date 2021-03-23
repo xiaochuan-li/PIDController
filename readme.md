@@ -7,9 +7,10 @@ ___
 `pip install pidcontroller`
 ___
 2. Topo Structure  
-<img src="./example/proc.png"/>  
+<img src="./example/proc.png"></img>
 ___
-3. Usage <a href="./examplr.py">example.py</a>  
+3. Usage <a href="./example.py">example.py</a>  
+
 ```
 from pidcontroller import Variable, PIDController
 import time
@@ -61,5 +62,5 @@ if __name__ == "__main__":
 ```
   
 ____
-4. Visualisation  
+1. Visualisation  
 <img src="./example/data.png"></img>
