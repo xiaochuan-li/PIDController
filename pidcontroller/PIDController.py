@@ -5,7 +5,7 @@ import time
 import matplotlib.pyplot as plt
 import seaborn as sns
 import random
-from controller.cursor import Cursor
+from .cursor import Cursor
 
 
 class Variable(object):

@@ -14,7 +14,7 @@ setup(
     install_requires=['matplotlib', 'numpy'],
     entry_points={
         'console_scripts': [
-            'sayit=controller:sayit',
+            'sayit=pidcontroller:sayit',
         ]
     }
 )

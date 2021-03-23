@@ -1,4 +1,4 @@
-from controller.PIDController import Variable, PIDController
+from pidcontroller import Variable, PIDController
 import time
 if __name__ == "__main__":
     V_input = Variable(name="input")
