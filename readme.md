@@ -7,9 +7,9 @@ ___
 `pip install pidcontroller`
 ___
 2. Topo Structure  
-<img src="./example/proc.png"></img>
+<img src="./example/proc.png"/>
 ___
-3. Usage <a href="./example.py">example.py</a>  
+1. Usage [example.py](./example.py)
 
 ```
 from pidcontroller import Variable, PIDController
