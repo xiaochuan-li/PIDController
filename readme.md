@@ -8,7 +8,7 @@ ___
 ___
 2. Usage  
 ```
-from controller.PIDController import Variable, PIDController
+from pidcontroller import Variable, PIDController
 import time
 if __name__ == "__main__":
     # defination of command signal
