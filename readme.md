@@ -7,17 +7,9 @@ ___
 `pip install pidcontroller`
 ___
 2. Topo Structure  
-~~~mermaid
-graph LR;
-  input(input command) --> error((error))
-  error((error)) --> controller[PID Controller]
-  controller[PID Controller] --> output(output signal)
-  output(output signal) --> sys[Physic System]
-  sys[Physic System] --> observe(observable signal)
-  observe(observable signal) --> error((error))
-~~~
+<img src="./example/proc.png"/>
 ___
-1. Usage  
+3. Usage <a href="./examplr.py">example.py</a>  
 ```
 from pidcontroller import Variable, PIDController
 import time
