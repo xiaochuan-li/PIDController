@@ -7,7 +7,7 @@ ___
 `pip install pidcontroller`
 ___
 2. Topo Structure  
-<img src="./example/proc.png"/>
+<img src="./example/proc.png"/>  
 ___
 3. Usage <a href="./examplr.py">example.py</a>  
 ```
@@ -59,6 +59,7 @@ if __name__ == "__main__":
     # visualization of simulation
     controller.visualize()
 ```
+  
 ____
 4. Visualisation  
 <img src="./example/data.png"></img>
